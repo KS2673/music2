@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/received_value_id"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:text="welcome 2nd activity"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp" />
+</RelativeLayout>
